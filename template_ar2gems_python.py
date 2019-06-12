@@ -1,12 +1,12 @@
 #!/bin/python
 #################################################################################################
 
-#importe aqui os pacotes necessários
+#importe aqui os pacotes necessarios
 import numpy as np
 
 #################################################################################################
 
-#defina aqui as funções que serão utilizadas no código
+#defina aqui as funcoes que serao utilizadas no codigo
 
 #exibe os valores do dicionario de parametros
 def read_params(a,j=''):
@@ -28,14 +28,14 @@ class template: #aqui vai o nome do plugin
 
 	def initialize(self, params):
 		self.params = params
-		#executando a função exibe os valores do dicionario de parametros
-		read_params(params) #para não printar comente essa linha
+		#executando a funcao exibe os valores do dicionario de parametros
+		read_params(params) #para nao printar comente essa linha
 		return True
 
 #################################################################################################
 
 	def execute(self):
-		#aqui vai o código
+		#aqui vai o codigo
 		print("Eu funciono") #apague essa linha
 		return True
 
