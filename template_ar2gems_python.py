@@ -11,7 +11,7 @@ import numpy as np
 #exibe os valores do dicionario de parametros
 def read_params(a,j=''):
   if j=='':
-    print "### Printing GUI parameters ###"
+    print("### Printing GUI parameters ###")
   for i in a:
     if (type(a[i])!=type({'a':1})):
       print j+"['"+str(i)+"']="+str(a[i])+" type: "+str(type(a[i]))
@@ -40,8 +40,10 @@ class template: #aqui vai o nome do plugin
 #################################################################################################
 
 	def execute(self):
+		
 		#aqui vai o codigo
 		print("Eu funciono") #apague essa linha
+		
 		return True
 
 #################################################################################################
