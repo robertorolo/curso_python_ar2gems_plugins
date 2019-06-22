@@ -29,13 +29,13 @@ class template: #aqui vai o nome do plugin
 
     def initialize(self, params):
         self.params = params
-		
+
         #imprimindo o dicionario de parametros
         print("dicionario de parametros: ", self.params)
-		
+
         #executando a funcao exibe os valores do dicionario de parametros
         read_params(params) #para nao printar comente essa linha
-		
+
         return True
 
 #################################################################################################
@@ -48,7 +48,7 @@ class template: #aqui vai o nome do plugin
         return True
 
 #################################################################################################
-	
+
     def finalize(self):
         return True
 
